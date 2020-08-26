@@ -1,3 +1,4 @@
+--Crear tablas
 /*
 ¿Què tipo de entidades? autores
 Nombre de la tabla: autores
@@ -43,3 +44,14 @@ CREATE TABLE autores(
   fecha_nacimiento DATE,
   pais_origen VARCHAR(40)
 );
+
+--Listar tablas
+SHOW TABLES;
+
+--Eliminar tablas
+DROP TABLE autores;
+
+--Decsribir una tabla
+SHOW COLUMNS FROM autores;
+DESC autores;
+DESCRIBE autores;
