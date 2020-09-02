@@ -1,5 +1,5 @@
-DROP DATABASE libreria_cf;
-CREATE DATABASE libreria_cf;
+DROP DATABASE IF EXISTS libreria_cf;
+CREATE DATABASE IF NOT EXISTS libreria_cf;
 USE libreria_cf;
 
 CREATE TABLE autores(
