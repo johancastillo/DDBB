@@ -2,7 +2,7 @@ DROP DATABASE IF EXISTS libreria_cf;
 CREATE DATABASE IF NOT EXISTS libreria_cf;
 USE libreria_cf;
 
-CREATE TABLE autores(
+CREATE TABLE IF NOT EXISTS autores(
   autor_id INT NOT NULL,
   nombre VARCHAR(25) NOT NULL,
   apellido VARCHAR(25) NOT NULL,
