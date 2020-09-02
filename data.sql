@@ -9,7 +9,8 @@ CREATE TABLE IF NOT EXISTS autores(
   seudonimo VARCHAR(50) UNIQUE,
   genero CHAR(1) NOT NULL,
   fecha_nacimiento DATE NOT NULL,
-  pais_origen VARCHAR(40) NOT NULL
+  pais_origen VARCHAR(40) NOT NULL,
+  fecha_creacion DATETIME DEFAULT current_timestamp
 );
 
 INSERT INTO autores (autor_id, nombre, apellido, seudonimo, genero, fecha_nacimiento, pais_origen)
